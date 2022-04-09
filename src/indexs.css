@@ -1,0 +1,151 @@
+/* 
+body{
+  display: flex;
+  justify-content: center;
+}
+#root
+{ 
+  
+  max-width: 1400px;
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+/* @import "../node_modules/@syncfusion/ej2-base/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-buttons/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-inputs/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-popups/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-react-calendars/styles/material.css"; */
+
+* {
+  font-family: "DM Sans";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+
+.e-input-group {
+  width: 54% !important;
+  margin-top: 1px !important;
+  height: 30px !important;
+  padding-top: 3px !important;
+}
+.e-input-group-icon {
+  color: #000000 !important;
+}
+.pdf-container {
+  /* width: 100%; */
+  height: 800px;
+  background-color: #e4e4e4;
+  overflow-y: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.error-msg {
+  width: 100%;
+  color: red;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.pdf-info {
+  color: black;
+  font-size: 14px;
+}
+
+.pdf-header-left .btn {
+  padding: 4px 10px;
+  font-size: 15px;
+  /* font-size: 1.2em; */
+  margin: 0 8px;
+  outline: none;
+  border: none;
+  color: black;
+  background: #93d5fa;
+  outline: none;
+  border: 2px solid #eee;
+  transition: 0.5s all ease;
+  cursor: pointer;
+}
+.pdf-header-left .btn .fas {
+  height: 8px;
+  width: 20px;
+  display: inline-block;
+  margin: 0 2px;
+  font-size: 0.9em;
+}
+.pdf-header-left .btn:hover {
+  background: #111;
+  color: #fff;
+}
+.pdf-header-left span {
+  height: 35px;
+  width: 35px;
+  display: inline-block;
+  align-items: center;
+  line-height: 35px;
+  border-radius: 50%;
+  background: #c0c0c0;
+
+  color: #000000;
+  margin: 0 3px;
+  text-align: center;
+  font-size: 1.2em;
+}
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:wght@700&display=swap");
+/* .heading {
+  font-family: "Crimson Text", serif;
+  font-size: 30px;
+}
+
+.react-pdf__Page__canvas {
+  width: 1500px !important;
+
+  padding-left: 7rem !important;
+}
+
+/* //calendar css */
+.MuiPickersModal-dialog:first-child {
+  overflow: hidden !important;
+}
+.MuiDialogContent-root {
+  height: 22.2rem !important;
+}
+.MuiPickersCalendarHeader-dayLabel {
+  color: #000000 !important;
+}
+button:focus {
+  outline: none !important;
+}
+.MuiInput-underline:before {
+  cursor: pointer !important;
+  /* border-bottom: none !important; */
+  transition: none !important;
+}
+.MuiInput-underline:after {
+  /* border-bottom: none !important; */
+  border-bottom: 1px solid gray !important;
+  transition: none !important;
+}
+.MuiInputBase-input {
+  width: 7.5rem !important;
+  cursor: pointer !important;
+  font-size: 14px !important;
+  font-weight: bold !important;
+}
+#toolbar {
+  display: none !important;
+}
+ */
+
+
+.viewer-image {
+  /* height: auto !important;   */
+  height: 1900px!important; 
+}

@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300&display=swap");
+
+.thumbnailBox
+{
+  height: 1900px;
+width: 160px !important;
+background-color: #505050;
+padding: 10px;
+display: flex;
+flex-direction:column;
+align-items:center;
+overflow-y: scroll;
+overflow-x: hidden;
+align-self: flex-start;
+}
+.thumbnail {
+  margin: 5px;
+  
+}
+
+.thumbnail img {
+  padding: 5px;
+}
+.thumbnail:hover {
+  border: 3px solid #40a3d3;
+  cursor: pointer;
+}
+.thumbnail_active {
+  border: 3px solid #40a3d3 !important;
+}
+
+.MuiPickersModal-dialogRoot {
+  position: absolute !important;
+  right: 10px !important;
+}
+.magazine {
+  /* width: 576px; */
+  /* width: 80% !important; */
+  /* width: 1200px!important; */
+  width: calc(100% - 200px) !important;
+  /* height: 752px; */
+  height: 1900px !important;
+  margin:0px 10px!important;
+  
+}
+
+
+.magazine .turn-page {
+  /* width: calc(100% - 200px) !important; */
+  /* width:100% !important; */
+  /* background-color: #ccc; */
+  background-image: url("http://52.250.20.141/EPaperImages/milapepaper_Page3_22112021.jpeg");
+  
+  background-repeat: no-repeat;
+  background-size:100% 1900px !important;
+  /* height: 2000px!important;   */
+  /* opacity: 0.5; */
+  /* width: 100% !important; */
+}
+
+.turn-page-wrapper>div{
+  width: 100%!important;
+  /*height: 1900px !important; */
+
+}
+
+.MuiPickersToolbar-toolbar
+{
+  background-color: rgb(0, 148, 222)!important;
+}
+.MuiPickersDay-daySelected
+{
+  background-color:rgb(0, 148, 222) !important
+}
+.MuiTextField-root {
+  width: 129% !important;
+}
+.sidebar{
+position: absolute;
+z-index: 9999;
+left: 15px;
+padding: 0px 0px 0px 25px !important
+}
+.iframe-size,._2p3a
+{
+  width: 100vw!important;
+  height: 100vh!important;
+}
+.MuiSnackbarContent-root
+{
+  width: 300px!important;
+  height: 130px!important;
+  /* background:linear-gradient(rgb(146, 216, 255), rgb(72, 164, 249))!important; */
+  background: #80cbfd!important;
+  font-family: "Crimson Text", serif !important;
+  color: black !important;
+  font-size: 16px!important;
+}
+.news-notification .MuiSnackbarContent-root
+{
+
+height: 75px!important;
+}
+.MuiListItemIcon-root {
+  min-width: 0px !important;
+  width: 33px !important;
+}
+a.sidebar-list
+{
+  text-decoration: none!important;
+  color: none!important;
+  all: unset !important;
+}
+a.sidebar-list:hover
+{
+  color: none!important;
+}
+.MuiListItem-root 
+{
+padding:8px 16px!important
+}
+.MuiDrawer-paperAnchorLeft
+{
+  width: 250px !important;
+}
+.MuiTypography-body1
+{
+  font-family: "Roboto", sans-serif !important;
+
+  font-size: 15px !important;
+}
+@media screen and (max-width:600px) {
+  .thumbnailBox
+  {
+    width: 120px!important;
+  }
+  .magazine
+  {
+  width: calc(100% - 160px) !important;
+  }
+  
+}
+@media screen and (max-width:450px) {
+  .thumbnailBox
+  {
+    width: 80px!important;
+  }
+  .magazine
+  {
+  width: calc(100% - 120px) !important;
+  margin-left: 20px!important;
+
+  }
+  .prevButton{
+    left: 70px!important;;
+    margin-left:6px!important
+  }
+  .nextButton{
+    right: 5px!important;;
+  }
+  
+}
+
+/* .MuiTextField-root {
+  width: 129% !important;
+} */
+/* @media screen and (max-width:1900px) {
+  .magazine
+  {
+  width: 88% !important;
+  }
+} */

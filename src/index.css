@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+
+* {
+  font-family: "DM Sans";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+
+.e-input-group {
+  width: 54% !important;
+  margin-top: 1px !important;
+  height: 30px !important;
+  padding-top: 3px !important;
+}
+.e-input-group-icon {
+  color: #000000 !important;
+}
+
+.MuiPickersModal-dialog:first-child {
+  overflow: hidden !important;
+}
+.MuiDialogContent-root {
+  height: 23rem !important;
+}
+.MuiPickersCalendarHeader-dayLabel {
+  color: #000000 !important;
+}
+button:focus {
+  outline: none !important;
+}
+.MuiInput-underline:before {
+  cursor: pointer !important;
+
+  transition: none !important;
+}
+.MuiInput-underline:after {
+  border-bottom: 1px solid gray !important;
+  transition: none !important;
+}
+.MuiInputBase-input {
+  width: 7.5rem !important;
+  cursor: pointer !important;
+  font-size: 14px !important;
+  font-weight: bold !important;
+}
+#toolbar {
+  display: none !important;
+}
+
+.viewer-image {
+  /* height: auto !important;   */
+  height: 1900px !important;
+}
